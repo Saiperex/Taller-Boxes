@@ -1,0 +1,109 @@
+.inicio
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.carrusel
+{
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+}
+.ofertas
+{
+    position: absolute;
+    top: 65vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card
+{
+    width: 30%;
+    height: 30vh;
+    background: linear-gradient(14deg,#4e4e4e 0%, #afafaf 40%, #373737 80%);
+    box-shadow: -10px 10px 10px 0px rgba(0,0,0,0.75);
+}
+.separator1
+{
+    width: 100%;
+    height: 30vh;
+    z-index: -1;
+    background-color: #F4BC33;
+}
+/*Parte 2*/
+.bg_imagenes
+{
+    height: 100%;
+    width: 1100vw;
+    display: flex;
+    transition: transform 500ms ease-in;
+}
+.bg_imagenes img
+{
+    width: 100vw;
+}
+.f
+{
+    position: absolute;
+    font-size: 5vh;
+    color: #F4BC33;
+    background-color:#fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4vh;
+    height: 4vh;
+    transition: transform 500ms ease-in;
+    top:40vh;
+}
+.fa-circle-chevron-left
+{
+    left: 2vw;
+}
+.fa-circle-chevron-right
+{
+    right:2vw;
+}
+/*parte 3*/
+.infoServicio
+{
+    position: absolute;
+    width: 40%;
+    height: 60%;
+    top: 15vh;
+    left: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 500ms ease-in;
+}
+.infoServicio h3
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #F4BC33;
+    font-size: 60px;
+    width: 60%;
+}
+.infoServicio h2
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    color: #fff;
+    font-size: 60px;
+}
+.infoServicio button
+{
+    font-weight: 300;
+    color: #fff;
+    font-size: 30px;
+    background-color: #F4BC33;
+    width: 50%;
+    padding: 10px 0;
+}
+/*final*/

@@ -1,0 +1,60 @@
+@media screen and (max-width:1000px) 
+{
+    .cabecera_centrar
+    {
+        width: 95%;
+    }   
+    .menu
+    {
+        width: 10vw;
+    }
+    .menu li 
+    {
+        display: none;
+    }
+    .menu_redes
+    {
+        display: none;
+    }
+    .logo
+    {
+        width: 80vw;
+    }
+    .infoServicio
+    {
+        left: 15%;
+        width: 70%;
+    }
+    .infoServicio h3 
+    {
+        font-size: 30px;
+        width: 90%;
+    }
+    .infoServicio h2 
+    {
+        font-size: 30px;
+    }
+    .infoServicio button
+    {
+        font-size: 20px;
+    }
+    .sliderButton
+    {
+        display: flex;
+    }  
+    /*cards*/
+    .ofertas
+    {
+        flex-wrap: wrap;
+    }
+    .card
+    {
+        width: 100%;
+        background-color: aqua;
+        margin-bottom: 3vh;
+    }
+    .separator1
+    {
+        height: 94vh;
+    }
+}

@@ -1,0 +1,73 @@
+.card
+{
+    overflow: hidden;
+}
+.card i
+{
+    color: #F4BC33;
+    font-size: 15vh;
+    margin: 1%;
+    filter: drop-shadow(-10px 10px 10px  rgba(0,0,0,0.75));
+}
+.card span
+{
+    top: 30%;
+    left: 15%;
+    color: #fff;
+    position: absolute;
+    font-size: 2vh;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+.card h2
+{
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    margin-left: 2%;
+    text-shadow:-10px 10px 10px  rgba(0,0,0,0.75);
+}
+.card legend
+{
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    margin-left: 2%;
+    text-shadow:-10px 10px 10px  rgba(0,0,0,0.75);
+}
+.card button
+{
+    font-family: 'Raleway', sans-serif;
+    margin: 2%;
+    width: 40%;
+    padding: 1% 0;
+    color: #fff;
+    background-color: #000;
+}
+.card img
+{
+    z-index: -1;
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #F4BC33;
+    top: 0;
+    right: -30%;
+}
+.card:nth-child(1) img
+{
+    background-image: url("../img/bg2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.card:nth-child(2) img
+{
+    background-image: url("../img/bg6.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.card:nth-child(3) img
+{
+    background-image: url("../img/bg9.jpg");
+    background-position: center;
+    background-size: cover;
+}
