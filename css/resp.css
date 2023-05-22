@@ -79,4 +79,23 @@
     .izquierda_titulos {
         width: 95%;
     }
+    /**/
+    .acerca_texto
+    {
+        width: 90%;
+    }
+    .acerca_card
+    {
+        width: 100%;
+    }
+    .acerca_imagen
+    {
+        width: 100%;
+    }
+    /**/
+    .contacto_contenido
+    {
+        width: 90%;
+        flex-direction: column;
+    }
 }
