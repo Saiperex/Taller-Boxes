@@ -16,7 +16,6 @@
 {
     width: 50%;
     height: 90vh;
-    border: solid 1px black;
 }
 .derechaBG
 {
@@ -27,4 +26,75 @@
     background-position: center;
     background-size: cover;
     opacity: .1;
+}
+.servicio_derecha
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.servicio_derecha ul
+{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.servicio_derecha ul
+{
+    height: 90%;
+}
+.servicio_derecha li
+{
+    width: 50%;
+    height: 6vh;
+    color: #fff;
+    font-size: 2vh;
+    font-family: 'Raleway', sans-serif;
+}
+.servicio_derecha li i
+{
+    font-size: 1vh;
+    color: #F4BC33;
+}
+.servicio_izquierda
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    font-size: 3vh;
+}
+.servicio_izquierda h4
+{
+    width: 80%;
+    font-family: 'Raleway', sans-serif;
+    color: #737372;
+}
+.izquierda_titulos
+{
+    width: 80%;
+    font-family: 'Raleway', sans-serif;
+}
+.izquierda_titulos h3
+{
+    font-weight: 200;
+}
+.izquierda_titulos h2
+{
+    font-weight: 900;
+    color: #F4BC33;
+}
+.servicio_izquierda button
+{
+    background-color: #F4BC33;
+    border: solid 1px #000;
+    font-family: 'Raleway', sans-serif;
+    width: 40%;
+    padding: 1vh 0;
+    font-size: 2vh;
+    color: #fff;
 }

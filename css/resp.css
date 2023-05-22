@@ -1,64 +1,82 @@
-@media screen and (max-width:1000px) 
-{
-    .cabecera_centrar
-    {
+@media screen and (max-width:1000px) {
+    .cabecera_centrar {
         width: 95%;
-    }   
-    .menu
-    {
+    }
+
+    .menu {
         width: 10vw;
     }
-    .menu li 
-    {
+
+    .menu li {
         display: none;
     }
-    .menu_redes
-    {
+
+    .menu_redes {
         display: none;
     }
-    .logo
-    {
+
+    .logo {
         width: 80vw;
     }
-    .infoServicio
-    {
+
+    .infoServicio {
         left: 15%;
         width: 70%;
     }
-    .infoServicio h3 
-    {
+
+    .infoServicio h3 {
         font-size: 30px;
         width: 90%;
     }
-    .infoServicio h2 
-    {
+
+    .infoServicio h2 {
         font-size: 30px;
     }
-    .infoServicio button
-    {
+
+    .infoServicio button {
         font-size: 20px;
     }
-    .sliderButton
-    {
+
+    .sliderButton {
         display: flex;
-    }  
+    }
+
     /*cards*/
-    .ofertas
-    {
+    .ofertas {
         flex-wrap: wrap;
     }
-    .card
-    {
+
+    .card {
         width: 100%;
         margin-bottom: 3vh;
     }
-    .separator1
-    {
+
+    .separator1 {
         height: 94vh;
     }
+
     /*servicios*/
-    .servicios_area
-    {
+    .servicios_area {
         width: 100%;
+    }
+
+    .servicio_derecha ul {
+        height: 100%;
+    }
+
+    .servicio_derecha li {
+        width: 100%;
+        font-size: 1.6vh;
+        height: 3.2vh;
+    }
+
+    /**/
+    .servicio_izquierda h4 
+    {
+        width: 95%;
+    }
+
+    .izquierda_titulos {
+        width: 95%;
     }
 }
