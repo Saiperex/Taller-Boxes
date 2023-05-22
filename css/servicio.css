@@ -1,0 +1,30 @@
+.servicio
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(66, 66, 66);
+}
+.path
+{
+    width: 100%;
+    height: 10vh;
+    clip-path: polygon(0% 0%, 0% 100%, 100% 50%, 100% 0%);
+    background-color: #F4BC33;
+}
+.servicios_area
+{
+    width: 50%;
+    height: 90vh;
+    border: solid 1px black;
+}
+.derechaBG
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/motor.svg");
+    background-position: center;
+    background-size: cover;
+    opacity: .1;
+}

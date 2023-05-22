@@ -50,11 +50,15 @@
     .card
     {
         width: 100%;
-        background-color: aqua;
         margin-bottom: 3vh;
     }
     .separator1
     {
         height: 94vh;
+    }
+    /*servicios*/
+    .servicios_area
+    {
+        width: 100%;
     }
 }
