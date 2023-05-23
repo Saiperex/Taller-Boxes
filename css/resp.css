@@ -71,31 +71,33 @@
     }
 
     /**/
-    .servicio_izquierda h4 
-    {
+    .servicio_izquierda h4 {
         width: 95%;
     }
 
     .izquierda_titulos {
         width: 95%;
     }
+
     /**/
-    .acerca_texto
-    {
+    .acerca_texto {
         width: 90%;
     }
-    .acerca_card
-    {
+
+    .acerca_card {
         width: 100%;
     }
-    .acerca_imagen
-    {
+
+    .acerca_imagen {
         width: 100%;
     }
+
     /**/
-    .contacto_contenido
-    {
+    .contacto_contenido {
         width: 90%;
         flex-direction: column;
     }
+
+    /**/
+    
 }
