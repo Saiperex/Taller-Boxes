@@ -1,6 +1,5 @@
 const botones = document.querySelectorAll(".menu_item");
 const sections = document.querySelectorAll(".sec");
-console.log(sections)
 for(let i=0;i<botones.length;i++)
 {
     botones[i].addEventListener("click", function () {

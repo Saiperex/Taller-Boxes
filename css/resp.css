@@ -99,5 +99,8 @@
     }
 
     /**/
-    
+    .acerca_card video 
+    {
+        height: 70%;
+    }
 }
